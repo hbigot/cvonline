@@ -9,7 +9,7 @@ $mes_outils = array(
     4 => array("Internet", "Outils de débug navigateur", "PhotofiltreStudio", " FileZilla"),
     3 => array("PhpStorm"),
     2 => array("Netbeans", "Bootstrap"),
-    1=> array("Git(versionning)")
+    1=> array("Github(versionning)")
 );
 $mes_langages = array(
     3 => array("Html", "Css"),

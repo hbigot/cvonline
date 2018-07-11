@@ -22,7 +22,6 @@
     <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
 
 
-
 </head>
 <body class="navbar">
 
@@ -79,37 +78,40 @@
         </div>
     </div>
     <div class="row">
-       <div class="col-md-12 col-xs-12 col-sm-12 positionnement">
-                         <!-- Button trigger modal -->
-               <button type="button" class=" btn btn-primary " data-toggle="modal"
-                       data-target="#exampleModalCenter">
-                   <img src="img/apprendre.png">
-               </button>
+        <div class="col-md-12 col-xs-12 col-sm-12 positionnement">
+            <!-- Button trigger modal -->
+            <button type="button" class=" btn btn-primary " data-toggle="modal"
+                    data-target="#exampleModalCenter">
+                <img src="img/apprendre.png">
+            </button>
 
-               <!-- Modal -->
-               <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                    aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                   <div class="modal-dialog modal-dialog-centered" role="document">
-                       <div class="modal-content">
-                           <div class="modal-header">
-                               <h5 class="modal-title textCenter " id="exampleModalLongTitle">J'apprend</h5>
-                           </div>
-                           <div class="modal-body textCenter">
-                               Apprends à intégrer une page web en utilisant la librairie Bootstrap
-                           </div>
-                           <div class="modal-footer">
-                               <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                           </div>
-                       </div>
-                   </div>
-               </div>
-           <div>
-               <div class="LI-profile-badge"  data-version="v1" data-size="medium" data-locale="fr_FR" data-type="horizontal" data-theme="light" data-vanity="deobarto"><a class="LI-simple-link" href='https://fr.linkedin.com/in/deobarto?trk=profile-badge'>Florian Laude</a></div>
-           </div>
-           <div>
-               <a href="https://github.com/Deobarto/cvonline"><img src="img/github.png"</a>
-           </div>
-           </div>
+            <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title textCenter " id="exampleModalLongTitle">J'apprend</h5>
+                        </div>
+                        <div class="modal-body textCenter">
+                            Apprends à intégrer une page web en utilisant la librairie Bootstrap
+                        </div>
+                        <div class="modal-footer">
+                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="fr_FR"
+                 data-type="horizontal" data-theme="light" data-vanity="deobarto"><a class="LI-simple-link"
+                                                                                     href='https://fr.linkedin.com/in/deobarto?trk=profile-badge'>Florian
+                    Laude</a></div>
+
+
+            <div>
+                <a href="https://github.com/Deobarto/cvonline"><img src="img/github.png" alt="github" /></a>
+      </div>
+        </div>
     </div>
     <div class="row bgColorBlocDeux">
         <div class="col-md-2 col-md-offset-1 col-xs-12 col-sm-4 percent">
@@ -143,21 +145,21 @@
                 <li> Déploiement du site web sur un serveur gratuit</li>
             </ul>
             <div class="normalize">
-               <div>
-                   <h3>
-                       Sep. 2011 - Déc. 2012 Agent de sous traitance - Le Centre La Gabrielle - 77
-                       Claye-Souilly</h3>
-               </div>
+                <div>
+                    <h3>
+                        Sep. 2011 - Déc. 2012 Agent de sous traitance - Le Centre La Gabrielle - 77
+                        Claye-Souilly</h3>
+                </div>
 
-<div>
-    <h3>                        Fév. 2011 Magasinier (intérim) – Sté. 1 2 3 - 77 Compans
-    </h3>
-</div>
-                        <div>
-                            <h3>Déc. 2010 Préparateur de commandes (intérim) – Savoy Technologie – 77 Quincy
-                                Voisin
-                            </h3>
-                        </div>
+                <div>
+                    <h3> Fév. 2011 Magasinier (intérim) – Sté. 1 2 3 - 77 Compans
+                    </h3>
+                </div>
+                <div>
+                    <h3>Déc. 2010 Préparateur de commandes (intérim) – Savoy Technologie – 77 Quincy
+                        Voisin
+                    </h3>
+                </div>
 
             </div>
 
@@ -289,23 +291,26 @@
         <div class="col-md-12 col-xs-12 col-sm-12  contact textCenter">
             <h4> CONTACTS</h4>
             <div class="row col-md-8 col-md-offset-2 col-xs-12 col-sm-12 positionnement ">
-                            <a href="https://goo.gl/maps/EKNw8MDwwpK2"><span class="glyphicon glyphicon-map-marker"></span>55
-                        rue Marc Sangnier </a>
+                <a href="https://goo.gl/maps/EKNw8MDwwpK2"><span class="glyphicon glyphicon-map-marker"></span>55
+                    rue Marc Sangnier </a>
 
                 <i class="fas fa-minus"></i>
-                 <a
-                            href="tel:+33617509651"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>06 17 50
-                        96 51</a>
-
-                <i class="fas fa-minus"></i>
-
-                    <a href="mailto:deorune@outlook.fr?subject=Compl&eacute;ment d&apos;informations&body=Bonjour,%0D%0A%0D%0AVotre CV à attir&eacute; mon attention et je souhaiterai avoir plus d&apos;informations."><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Je
-                        souhaite plus d'informations</a>
+                <a
+                        href="tel:+33617509651"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>06
+                    17 50
+                    96 51</a>
 
                 <i class="fas fa-minus"></i>
 
-                    <a href="mailto:deorune@outlook.fr?subject=Offre de poste en contrat de professionnalisation&body=Bonjour jeune padawan !%0D%0A%0D%0ATon utilisation de la force à attir&eacute; mon attention et je souhaite te proposer un poste de &ldquo;Developpeur Int&eacute;grateur Web Junior&rdquo; en contrat de professionnalisation.%0D%0A%0D%0A[D&eacute;crire ici plus d&apos;informations sur les missions propos&eacute;s dans le poste]"> <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Proposer
-                        un contrat de professionnalisation</a>
+                <a href="mailto:deorune@outlook.fr?subject=Compl&eacute;ment d&apos;informations&body=Bonjour,%0D%0A%0D%0AVotre CV à attir&eacute; mon attention et je souhaiterai avoir plus d&apos;informations."><span
+                            class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Je
+                    souhaite plus d'informations</a>
+
+                <i class="fas fa-minus"></i>
+
+                <a href="mailto:deorune@outlook.fr?subject=Offre de poste en contrat de professionnalisation&body=Bonjour jeune padawan !%0D%0A%0D%0ATon utilisation de la force à attir&eacute; mon attention et je souhaite te proposer un poste de &ldquo;Developpeur Int&eacute;grateur Web Junior&rdquo; en contrat de professionnalisation.%0D%0A%0D%0A[D&eacute;crire ici plus d&apos;informations sur les missions propos&eacute;s dans le poste]">
+                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Proposer
+                    un contrat de professionnalisation</a>
 
             </div>
         </div>
