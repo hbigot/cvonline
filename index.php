@@ -25,14 +25,14 @@
 </head>
 <body class="navbar">
 
-<nav id="navbar" class="navbar  fixed-top">
-    <h1 class="bigWhite col-md-12 col-xs-12 col-sm-12">
+<nav id="navbar" class="navbar col-md-12 col-xs-12 col-sm-12  fixed-top">
+    <h1>
         DEVELOPEUR INTEGRATEUR WEB JUNIOR
     </h1>
 
 </nav>
-<nav id="navbar" class="navbar ">
-    <h1 class="bigWhite col-md-12 col-xs-12 col-sm-12">
+<nav id="navbar" class="navbar col-md-12 col-xs-12 col-sm-12 ">
+    <h1>
         DEVELOPEUR INTEGRATEUR WEB JUNIOR
     </h1>
 
@@ -104,8 +104,7 @@
             </div>
             <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="fr_FR"
                  data-type="horizontal" data-theme="light" data-vanity="deobarto"><a class="LI-simple-link"
-                                                                                     href='https://fr.linkedin.com/in/deobarto?trk=profile-badge'>Florian
-                    Laude</a></div>
+                                                                                     href='https://fr.linkedin.com/in/deobarto?trk=profile-badge'>Florian Laude</a></div>
 
 
             <div>

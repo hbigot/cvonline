@@ -90,8 +90,9 @@ ul {
     padding-right: 0 !important;
 }
 
-.percent li,p{
+.percent li{
     margin-top: 10px;
+    font-size: 0.8em;
 }
 
 .bcwhite {
@@ -152,23 +153,10 @@ p.colorOr {
     background-color: #707264;
 }
 
-p.bcwhi {
-    color: black;
-    text-align: center;
-    margin-right: 90px;
 
-}
 
-h1.typeBlack {
-    color: black;
-    font-weight: bold;
-    font-size: 3em;
-    text-align: center;
-    margin-top: 35px;
 
-}
-
-.bigWhite {
+.navbar h1 {
     color: white;
     font-weight: bold;
     font-size: 3em;
