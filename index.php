@@ -10,77 +10,13 @@ require 'nav.php';
 
 <div class="container col-md-12 col-xs-12 col-sm-12">
 
-    <div class="row bgColorBlocUn normalize">
-        <div class="col-md-2 col-md-offset-1 col-xs-12 percent col-sm-4 ">
-            <a href="img/lf1.jpg" target="_blank">
-                <img class="carreau" src="img/lf1.jpg"/>
-            </a>
-        </div>
-        <div class="col-md-9 col-xs-12  col-sm-8 blockInline ">
-            <ul>
-                <li>
-                    <i class="fas fa-male"></i>
-                    Laude Florian
-                </li>
-                <li>
-                    <i class="fas fa-birthday-cake"></i>
-                    Né le 1er Novembre 1988
-                </li>
-                <li>
-                    <i class="fas fa-wheelchair"></i>
-                    Reconnaissance MDPH (Autisme - asperger)
-                </li>
-            </ul>
-
-            <p>Ayant un handicap que j'ai découvert assez tard, je n'ai pas eu la possibilité d'avoir
-                une environnement professionnel qui me permette de découvrir les joies de la pause café ou des
-                after-work,
-                avec en passant le mérite du travail bien accompli. J'ai du apprendre à apprivoiser mon handicap et mon
-                environnement avant de me lancer dans l'apprentissage d'un métier qui me plait et dont je me découvre
-                une passion.
-            </p>
-            <p> Je suis aujourd'hui à la recherche de l'entreprise (peut-être toi qui me lis) qui me
-                permettra de devenir le développeur que j'ai commencé à construire seul, mais qui s'accomplira au sein
-                du service informatique ou développement dans un parcours en contrat de professionnalisation sur 12 ou
-                24 mois.</p>
-
-
-        </div>
-    </div>
-    <div class="row barreDeLien">
-        <div>
-            <div class="col-md-12 col-xs-12 col-sm-12 positionnement">
-                <!-- Button trigger modal -->
-                <button type="button" class=" btn btn-primary " data-toggle="modal"
-                        data-target="#exampleModalCenter">
-                    <img src="img/apprendre.png">
-                </button>
-
-                <!-- Modal -->
-                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                    <div class="modal-dialog modal-dialog-centered" role="document">
-                        <div class="modal-content">
-                            <div class="modal-header">
-                                <h5 class="modal-title textCenter " id="exampleModalLongTitle">J'apprend</h5>
-                            </div>
-                            <div class="modal-body textCenter">
-                                Apprends à intégrer une page web en utilisant la librairie Bootstrap
-                            </div>
-                            <div class="modal-footer">
-                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="fr_FR" data-type="horizontal" data-theme="light" data-vanity="deobarto">
-                    <a class="LI-simple-link" href="https://fr.linkedin.com/in/deobarto?trk=profile-badge" target="blank">Mon profil LinkedIn. </br> Cliquez ici pour y accéder</a>
-                </div>
-                <div><a href="https://github.com/Deobarto/cvonline" target="blank"><img src="img/github.png" alt="github" /></a></div>
-            </div>
-        </div>
-    </div>
-    <div class="row bgColorBlocDeux">
+    <?php
+    require 'bloc_un.php'
+    ?>
+    <?php
+    require 'barreDeNav.php'
+    ?>
+       <div class="row bgColorBlocDeux">
         <div class="col-md-2 col-md-offset-1 col-xs-12 col-sm-4 percent">
             <h2> Competences</h2>
             <ul>

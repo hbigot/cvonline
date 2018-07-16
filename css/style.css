@@ -75,7 +75,8 @@ ul {
 
 }
 .barreDeLien {
-    background-color: #625042;
+    background-color: #625042!important;
+    transform: none!important;
 }
 .fixed-top {
     position: fixed!important;
@@ -216,7 +217,7 @@ ul.typeBlack {
 }
 .blockInline{
     display: flex;
-    flex-direction: column;$
+    flex-direction: column;
 }
 .blockInline p{
     font-size: 0.9em ;
@@ -225,7 +226,7 @@ ul.typeBlack {
 }
 
 .textCenter h4{
-    focolor: white;
+    color: white;
 }
 .textCenter a {
     color: #c4d764;
