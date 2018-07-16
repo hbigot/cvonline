@@ -1,42 +1,12 @@
 <?php include "variables.php" ?>
 <html>
-<head>
-    <title>Laude Florian</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <link rel="stylesheet" href="css/style.css"/>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
-          integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css"
-          integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
-            integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
-            crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
-            integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
-            crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"
-            integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T"
-            crossorigin="anonymous"></script>
-    <script type="text/javascript" src="https://platform.linkedin.com/badges/js/profile.js" async defer></script>
-
-
-</head>
-<body class="navbar">
-
-<nav id="navbar" class="navbar col-md-12 col-xs-12 col-sm-12  fixed-top">
-    <h1>
-        DEVELOPEUR INTEGRATEUR WEB JUNIOR
-    </h1>
-
-</nav>
-<nav id="navbar" class="navbar col-md-12 col-xs-12 col-sm-12 ">
-    <h1>
-        DEVELOPEUR INTEGRATEUR WEB JUNIOR
-    </h1>
-
-</nav>
+<?php
+require 'header.php';
+?>
+<body>
+<?php
+require 'nav.php';
+?>
 
 <div class="container col-md-12 col-xs-12 col-sm-12">
 
@@ -77,39 +47,37 @@
 
         </div>
     </div>
-    <div class="row">
-        <div class="col-md-12 col-xs-12 col-sm-12 positionnement">
-            <!-- Button trigger modal -->
-            <button type="button" class=" btn btn-primary " data-toggle="modal"
-                    data-target="#exampleModalCenter">
-                <img src="img/apprendre.png">
-            </button>
+    <div class="row barreDeLien">
+        <div>
+            <div class="col-md-12 col-xs-12 col-sm-12 positionnement">
+                <!-- Button trigger modal -->
+                <button type="button" class=" btn btn-primary " data-toggle="modal"
+                        data-target="#exampleModalCenter">
+                    <img src="img/apprendre.png">
+                </button>
 
-            <!-- Modal -->
-            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
-                 aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-                <div class="modal-dialog modal-dialog-centered" role="document">
-                    <div class="modal-content">
-                        <div class="modal-header">
-                            <h5 class="modal-title textCenter " id="exampleModalLongTitle">J'apprend</h5>
-                        </div>
-                        <div class="modal-body textCenter">
-                            Apprends à intégrer une page web en utilisant la librairie Bootstrap
-                        </div>
-                        <div class="modal-footer">
-                            <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                <!-- Modal -->
+                <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog"
+                     aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                    <div class="modal-dialog modal-dialog-centered" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title textCenter " id="exampleModalLongTitle">J'apprend</h5>
+                            </div>
+                            <div class="modal-body textCenter">
+                                Apprends à intégrer une page web en utilisant la librairie Bootstrap
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                            </div>
                         </div>
                     </div>
                 </div>
+                <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="fr_FR" data-type="horizontal" data-theme="light" data-vanity="deobarto">
+                    <a class="LI-simple-link" href="https://fr.linkedin.com/in/deobarto?trk=profile-badge" target="blank">Mon profil LinkedIn. </br> Cliquez ici pour y accéder</a>
+                </div>
+                <div><a href="https://github.com/Deobarto/cvonline" target="blank"><img src="img/github.png" alt="github" /></a></div>
             </div>
-            <div class="LI-profile-badge" data-version="v1" data-size="medium" data-locale="fr_FR"
-                 data-type="horizontal" data-theme="light" data-vanity="deobarto"><a class="LI-simple-link"
-                                                                                     href='https://fr.linkedin.com/in/deobarto?trk=profile-badge'>Florian Laude</a></div>
-
-
-            <div>
-                <a href="https://github.com/Deobarto/cvonline"><img src="img/github.png" alt="github" /></a>
-      </div>
         </div>
     </div>
     <div class="row bgColorBlocDeux">
@@ -259,61 +227,9 @@
             </ul>
         </div>
     </div>
-    <div class="row footer">
-        <div class="col-md-12 col-xs-12 col-sm-12 certificats textCenter ">
-            <h4>
-                CERTIFICATIONS
-            </h4>
-            <div class="row col-md-6 col-md-offset-3 col-xs-12 col-sm-12 positionnement ">
-
-
-                <a href="../public/certificat_florian-laude_decouper-et-integrer-une-maquette.pdf">
-                    Découper
-                    et integrer un maquette
-                </a>
-                <i class="fas fa-minus"></i>
-                <a
-                        href="../public/certificat_florian-laude_apprenez-a-creer-votre-site-web-avec-html5-et-css3.pdf">
-
-                    HTML ET CSS3
-                </a>
-                <i class="fas fa-minus"></i>
-                <a href="../public/certificat_florian-laude_apprenez-a-coder-avec-javascript.pdf">
-                    Apprenez à coder avec Javascript
-                </a>
-                <i class="fas fa-minus"></i>
-                <a href="../public/certificat_florian-laude_comprendre-le-web.pdf">
-                    Comprendre le Web
-                </a>
-            </div>
-        </div>
-        <div class="col-md-12 col-xs-12 col-sm-12  contact textCenter">
-            <h4> CONTACTS</h4>
-            <div class="row col-md-8 col-md-offset-2 col-xs-12 col-sm-12 positionnement ">
-                <a href="https://goo.gl/maps/EKNw8MDwwpK2"><span class="glyphicon glyphicon-map-marker"></span>55
-                    rue Marc Sangnier </a>
-
-                <i class="fas fa-minus"></i>
-                <a
-                        href="tel:+33617509651"><span class="glyphicon glyphicon-earphone" aria-hidden="true"></span>06
-                    17 50
-                    96 51</a>
-
-                <i class="fas fa-minus"></i>
-
-                <a href="mailto:deorune@outlook.fr?subject=Compl&eacute;ment d&apos;informations&body=Bonjour,%0D%0A%0D%0AVotre CV à attir&eacute; mon attention et je souhaiterai avoir plus d&apos;informations."><span
-                            class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Je
-                    souhaite plus d'informations</a>
-
-                <i class="fas fa-minus"></i>
-
-                <a href="mailto:deorune@outlook.fr?subject=Offre de poste en contrat de professionnalisation&body=Bonjour jeune padawan !%0D%0A%0D%0ATon utilisation de la force à attir&eacute; mon attention et je souhaite te proposer un poste de &ldquo;Developpeur Int&eacute;grateur Web Junior&rdquo; en contrat de professionnalisation.%0D%0A%0D%0A[D&eacute;crire ici plus d&apos;informations sur les missions propos&eacute;s dans le poste]">
-                    <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Proposer
-                    un contrat de professionnalisation</a>
-
-            </div>
-        </div>
-    </div>
+   <?php
+   require 'footer.php'
+   ?>
 </div>
 </body>
 </html>

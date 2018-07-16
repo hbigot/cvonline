@@ -74,6 +74,9 @@ ul {
     margin-bottom:0!important;
 
 }
+.barreDeLien {
+    background-color: #625042;
+}
 .fixed-top {
     position: fixed!important;
     top: 0;
