@@ -13,8 +13,7 @@ $mes_outils = array(
 );
 $mes_langages = array(
     3 => array("Html", "Css"),
-    2 => array("Javascript"),
-    1 => array("Php"),
+    2 => array("Javascript","Php"),
 );
 $la_legende = array(
     4 => array("Je gère !"),

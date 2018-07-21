@@ -13,7 +13,7 @@ require 'nav.php';
     require 'bloc_un.php'
     ?>
     <?php
-    require 'barreDeNavIndex.php'
+    require 'barreDeNav.php'
     ?>
 <?php
 require 'footer.php'

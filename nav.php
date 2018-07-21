@@ -1,4 +1,4 @@
-<nav id="navbar" class="navbar col-md-12 col-xs-12 col-sm-12  fixed-top">
+<nav id="navbar" class="navbar col-md-12 col-xs-12 col-sm-12  fixed-top hidden-xs">
     <h1>
         DEVELOPEUR INTEGRATEUR WEB JUNIOR
     </h1>

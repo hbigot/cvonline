@@ -14,7 +14,7 @@ require 'nav.php';
     require 'bloc_un.php'
     ?>
     <?php
-    require 'barreDeNav.php'
+    require 'barreDeNavIndex.php'
     ?>
        <div class="row bgColorBlocDeux">
         <div class="col-md-2 col-md-offset-1 col-xs-12 col-sm-4 percent">
@@ -126,12 +126,8 @@ require 'nav.php';
             </h2>
             <ul>
                 <li>
-                    Mars 2018 - Certification "Comprendre le Web" - Formation suivie en autodidacte - openclassrooms.com
-                </li>
-                <li>
-                    Avril 2018 - Certification "Apprenez a créer votre site web avec HTML5 et CSS3" - Formation suivie
-                    en
-                    autodidacte - openclassrooms.com
+                    Mai 2018 - Certification "Apprenez a coder avec JavaScript" - Formation suivie en autodidacte -
+                    openclassrooms.com
                 </li>
                 <li>
                     Mai 2018 - Certification "Découpage et intégration d'une maquette" en HTML et CSS - Formation suivie
@@ -139,26 +135,21 @@ require 'nav.php';
                     autodidacte - openclassrooms.com
                 </li>
                 <li>
-                    Mai 2018 - Certification "Apprenez a coder avec JavaScript" - Formation suivie en autodidacte -
-                    openclassrooms.com
+                    Avril 2018 - Certification "Apprenez a créer votre site web avec HTML5 et CSS3" - Formation suivie
+                    en
+                    autodidacte - openclassrooms.com
                 </li>
                 <li>
-                    2006 Brevet des Collèges
+                    Mars 2018 - Certification "Comprendre le Web" - Formation suivie en autodidacte - openclassrooms.com
                 </li>
                 <li>
-                    2005 – 2006 1ère année de BEP Comptabilité - Lycée Jacques Amiot – 77 -
-                    Neufmoutier
+                    2005 – 2006 BEP Comptabilité - Lycée Jacques Amiot – 77 - Neufmoutier
                 </li>
                 <li>
-                    2004 – 2005 1ère année de BEP Secrétariat - L.P. '' Le champ de Claye '' - 77
-                    Claye-Souilly
+                    2004 – 2005 BEP Secrétariat - L.P. '' Le champ de Claye '' - 77 Claye-Souilly
                 </li>
                 <li>
-                    2004 Attestation de Sécurité Routière (ASSR) niveau 1 et 2
-                </li>
-                <li>
-                    2004 Brevet d'informatique et d'Internet (B2I) niveau 1 et 2 Collège des Tourelles –
-                    77 - Claye Souilly
+                    2004 Brevet d'informatique et d'Internet (B2I) niveau 1 et 2 Collège des Tourelles – 77 - Claye Souilly
                 </li>
             </ul>
         </div>

@@ -40,13 +40,13 @@
 
             <i class="fas fa-minus"></i>
 
-            <a href="mailto:deorune@outlook.fr?subject=Compl&eacute;ment d&apos;informations&body=Bonjour,%0D%0A%0D%0AVotre CV à attir&eacute; mon attention et je souhaiterai avoir plus d&apos;informations."><span
+            <a href="mailto:laude_florian@outlook.fr?subject=Compl&eacute;ment d&apos;informations&body=Bonjour,%0D%0A%0D%0AVotre CV à attir&eacute; mon attention et je souhaiterai avoir plus d&apos;informations."><span
                     class="glyphicon glyphicon-envelope" aria-hidden="true"></span>Je
                 souhaite plus d'informations</a>
 
             <i class="fas fa-minus"></i>
 
-            <a href="mailto:deorune@outlook.fr?subject=Offre de poste en contrat de professionnalisation&body=Bonjour jeune padawan !%0D%0A%0D%0ATon utilisation de la force à attir&eacute; mon attention et je souhaite te proposer un poste de &ldquo;Developpeur Int&eacute;grateur Web Junior&rdquo; en contrat de professionnalisation.%0D%0A%0D%0A[D&eacute;crire ici plus d&apos;informations sur les missions propos&eacute;s dans le poste]">
+            <a href="mailto:laude_florian@outlook.fr?subject=Offre de poste en contrat de professionnalisation&body=Bonjour jeune padawan !%0D%0A%0D%0ATon utilisation de la force à attir&eacute; mon attention et je souhaite te proposer un poste de &ldquo;Developpeur Int&eacute;grateur Web Junior&rdquo; en contrat de professionnalisation.%0D%0A%0D%0A[D&eacute;crire ici plus d&apos;informations sur les missions propos&eacute;s dans le poste]">
                 <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Proposer
                 un contrat de professionnalisation</a>
 
